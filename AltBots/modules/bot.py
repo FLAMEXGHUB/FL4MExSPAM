@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍")
+        altron = await e.reply(f"»⚡ᴛᴇᴀᴍ 𝐅ʟ𝟒ᴍᴇ ᴏɴ ᴛᴏᴘ⚡")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"💫🥀 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍\n» {mp} 𝙼𝚂")
+        await altron.edit(f"🔥𝐅ʟ𝟒ᴍᴇ𝑋sᴘᴀᴍ 𝗕𝗢𝗧𝗦 𝗗𝗨𝗦𝗛𝗠𝗔𝗡𝗢 𝗞𝗜 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗𝗡𝗘 𝗞𝗢 𝗧𝗔𝗜𝗬𝗔𝗥 𝗛𝗔𝗜🔥\n» {mp} 𝙼𝚂")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"🥀𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝙾𝚇𝚈𝙶𝙴𝙽 𝙱𝙾𝚃𝚂🥀...")
+        await e.reply(f"⚡𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝐅ʟ𝟒ᴍᴇ𝑋sᴘᴀᴍ 𝙱𝙾𝚃𝚂⚡ᴘʟs ᴡᴀɪᴛ...")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» 𝙰𝙳𝙳𝙸𝙽𝙶 𝚄𝚂𝙴𝚁 𝙰𝚂 𝙾𝚇𝚈𝙶𝙴𝙽 💘𝚂𝚄𝙳𝙾💘...🚀🚀")
+        ok = await event.reply(f"» 𝙰𝙳𝙳𝙸𝙽𝙶 𝚄𝚂𝙴𝚁 𝙰𝚂 🔥𝐅ʟ𝟒ᴍᴇ𝑋sᴘᴀᴍ🔥 𝚂𝚄𝙳𝙾...⚡⚡")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -113,21 +113,21 @@ async def addsudo(event):
             reply_msg = await event.get_reply_message()
             target = reply_msg.sender_id
         except:
-            await ok.edit("» 🌺𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰 𝚄𝚂𝙴𝚁🌺 !!")
+            await ok.edit("» 𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰 𝚄𝚂𝙴𝚁 ʙᴏss 🙄 !!")
             return
 
         if str(target) in sudousers:
-            await ok.edit("» 🌸𝚃𝙷𝙸𝚂 𝚄𝚂𝙴𝚁 𝙸𝚂 𝙰𝙻𝚁𝙴𝙰𝙳𝚈 𝙰 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁 𝙾𝙵 𝙾𝚇𝚈𝙶𝙴𝙽 𝙱𝙾𝚃𝚂🌸 !!")
+            await ok.edit("» 𝚃𝙷𝙸𝚂 𝚄𝚂𝙴𝚁 𝙸𝚂 𝙰𝙻𝚁𝙴𝙰𝙳𝚈 𝙰 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁 𝙾𝙵 𝐅ʟ𝟒ᴍᴇ𝑋sᴘᴀᴍ 𝙱𝙾𝚃𝚂 ʙᴏss🙄!!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"» 𝙽𝙴𝚆 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁: {target}\n» 💖𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝙾𝚇𝚈𝙶𝙴𝙽 𝙱𝙾𝚃𝚂💖...`")
+            await ok.edit(f"» 𝙽𝙴𝚆 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁: {target}\n» ⚡𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝐅ʟ𝟒ᴍᴇ𝑋sᴘᴀᴍ 𝙱𝙾𝚃𝚂⚡ᴘʟs ᴡᴀɪᴛ...`")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» 𝚂𝙾𝚁𝚁𝚈, 𝙾𝙽𝙻𝚈 𝙾𝚆𝙽𝙴𝚁 𝙲𝙰𝙽 𝙰𝙲𝙴𝚂𝚂 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳.")
+        await event.reply("» 𝚂𝙾𝚁𝚁𝚈, 𝙾𝙽𝙻𝚈 𝙾𝚆𝙽𝙴𝚁 𝙲𝙰𝙽 𝙰𝙲𝙴𝚂𝚂 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝙱𝙾𝚂𝚂😅.")
 
         
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
@@ -145,7 +145,7 @@ async def removesudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» 𝚁𝙴𝙼𝙾𝚅𝙸𝙽𝙶 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁 𝙰𝚂 𝙾𝚇𝚈𝙶𝙴𝙽 💘𝚂𝚄𝙳𝙾💘...🚀🚀")
+        ok = await event.reply(f"» 𝚁𝙴𝙼𝙾𝚅𝙸𝙽𝙶 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁 𝙰𝚂 𝐅ʟ𝟒ᴍᴇ𝑋sᴘᴀᴍ 𝚂𝚄𝙳𝙾...⚡⚡")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -159,18 +159,18 @@ async def removesudo(event):
             reply_msg = await event.get_reply_message()
             target = reply_msg.sender_id
         except:
-            await ok.edit("» 🌺𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰 𝚄𝚂𝙴𝚁🌺 !!")
+            await ok.edit("» 𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰 𝚄𝚂𝙴𝚁 ʙᴏss 🙄 !!")
             return
 
         if str(target) in sudousers:
             newsudo = sudousers.replace(str(target), "").strip()
-            await ok.edit(f"» 𝙾𝚇𝚈𝙶𝙴𝙽 𝚄𝚂𝙴𝚁 𝚁𝙴𝙼𝙾𝚅𝙴𝙳\n\n🛠️ 𝙽𝙴𝚆 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁𝚂: {newsudo} 🛠️")
+            await ok.edit(f"» 𝐅ʟ𝟒ᴍᴇ𝑋sᴘᴀᴍ 𝚄𝚂𝙴𝚁 𝚁𝙴𝙼𝙾𝚅𝙴𝙳\n\n🛠️ 𝙽𝙴𝚆 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁𝚂: {newsudo} 🛠️")
             heroku_var["SUDO_USERS"] = newsudo
         else:
-            await ok.edit("» 🌸𝚃𝙷𝙸𝚂 𝚄𝚂𝙴𝚁 𝙸𝚂 𝙽𝙾𝚃 𝙰 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁🌸 !!")
+            await ok.edit("» 𝚃𝙷𝙸𝚂 𝚄𝚂𝙴𝚁 𝙸𝚂 𝙽𝙾𝚃 𝙰 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁 𝙱𝙾𝚂𝚂😪 !!")
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» 𝚂𝙾𝚁𝚁𝚈, 𝙾𝙽𝙻𝚈 𝚂𝚄𝙳𝙾 𝙲𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴 𝚂𝚄𝙳𝙾.")
+        await event.reply("» 𝚂𝙾𝚁𝚁𝚈, 𝙾𝙽𝙻𝚈 𝚂𝚄𝙳𝙾 𝙲𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴 𝚂𝚄𝙳𝙾 𝚂𝙸𝚁😅.")
         
         
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sudolist(?: |$)(.*)" % hl))
