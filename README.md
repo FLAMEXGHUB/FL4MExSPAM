@@ -12,7 +12,7 @@
 
 <h4 align="center"> 𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/NEONEX_FL4ME"><img src="https://telegra.ph/file/14c2f01b61a1b54764819.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/LORD_NEONEX_FL4ME"><img src="https://telegra.ph/file/14c2f01b61a1b54764819.jpg" width="400"></a></p>
 
 
 > ⭐️ Thanks to everyone for using THIS FLAME SPAM BOT, That is the greatest pleasure we have !
