@@ -1,8 +1,10 @@
-<h1 align="center"><b>[✨🥀] ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 [✨🥀]</b></h1>
+<h1 align="center"><b>[🔥✨⚡]  𝐅ʟ𝟒ᴍᴇ [⚡✨🔥]</b></h1>
 <!--
 ✨ᴛʜɪs ʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ᴀɴᴅ ʙʀᴏᴜɢʜᴛ ᴛᴏ ʏᴏᴜ ʙʏ ᴛᴇᴀᴍ ғʟᴀᴍᴇ✨.
 
-<p 
+<p align="center">
+    <b>ᴠɪsɪᴛᴏʀs</b><br>
+ -->    <img align="middle" src="https://profile-counter.glitch.me/itszshivam/count.svg" />
 
 </p>
 
