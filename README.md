@@ -3,9 +3,7 @@
 ✨ᴛʜɪs ʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ᴀɴᴅ ʙʀᴏᴜɢʜᴛ ᴛᴏ ʏᴏᴜ ʙʏ ᴛᴇᴀᴍ ғʟᴀᴍᴇ✨.
 
 
-<p align="center">
-    <b>ᴠɪsɪᴛᴏʀs</b><br>
- -->    <img align="middle" src="https://profile-counter.glitch.me/itszshivam/count.svg" />
+
 </p>
 
 <h1 align="center"><b> 𝕱𝕷𝕬𝕸𝕰 𝙓 𝕾𝖕𝖆𝖒🔥</b></h1>
