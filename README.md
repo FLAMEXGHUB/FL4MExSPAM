@@ -33,10 +33,13 @@
 
 # Rᴇǫᴜɪʀᴇᴍᴇɴᴛs
 
-- `10 BOT-TOKENS`
+☞ `10 BOT-TOKENS`
 
-- `OWNER-ID`
+☞ `OWNER-ID`
 
+☞ heroku api key
+
+☞ heroku api name
 
 # ꜱᴜᴘᴘᴏʀᴛ ✨
 <a href="https://t.me/FL4ME_chats"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
